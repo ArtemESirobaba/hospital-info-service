@@ -1,0 +1,32 @@
+﻿{
+	"features": [
+		{
+			"id": 218,
+			"type": "city",
+			"company_id": 31,
+			"name_ru": "Первое город",
+			"name_ua": "Перше міське",
+			"name_en": "First municipal",
+			"work_hours": [
+				[
+					0040,
+					0080
+				],			
+				[
+					0040,
+					0080
+				]
+			],
+			"is_online": true,
+			"is_visible": true,			
+			"services": {
+				"vip": false,
+				"all_hours": false,
+				"pi": true,
+				"entities": true,
+				"premium": false,
+				"english_speaking": false				
+			}
+		}
+	]
+}

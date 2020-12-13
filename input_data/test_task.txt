@@ -1,0 +1,88 @@
+﻿{
+	"features": [
+		{
+			"id": 218,
+			"type": "city",
+			"company_id": 31,
+			"name_ru": "Первое город",
+			"name_ua": "Перше міське",
+			"name_en": "First municipal",
+			"work_hours": [
+				[
+					0040,
+					0080
+				],			
+				[
+					0040,
+					0080
+				]
+			],
+			"is_online": true,
+			"is_visible": true,			
+			"services": {
+				"vip": false,
+				"all_hours": false,
+				"pi": true,
+				"entities": true,
+				"premium": false,
+				"english_speaking": false				
+			}
+		},
+		{
+			"id": 212,
+			"type": "megapolice",
+			"company_id": 30,
+			"name_ru": "Друге город",
+			"name_ua": "Второе міське)",
+			"name_en": "Second municipal",
+			"work_hours": [
+				[
+					0040,
+					0080
+				],
+				[
+					0040,
+					0080
+				],				
+				[
+					0040,
+					0080
+				]
+			],
+			"is_online": false,
+			"is_visible": false,			
+			"services": {
+				"vip": true,
+				"all_hours": true,
+				"pi": true,
+				"entities": true,
+				"premium": false,
+				"english_speaking": false				
+			}
+		},
+		{
+			"id": 318,
+			"type": "city",
+			"company_id": 33,
+			"name_ru": "Четверте город",
+			"name_ua": "Четверте міське)",
+			"name_en": "Fourth municipal",
+			"work_hours": [
+				[
+					1040,
+					1080
+				]
+			],
+			"is_online": true,
+			"is_visible": true,			
+			"services": {
+				"vip": false,
+				"all_hours": false,
+				"pi": true,
+				"entities": true,
+				"premium": false,
+				"english_speaking": false				
+			}
+		}
+	]
+}

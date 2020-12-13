@@ -1,0 +1,2 @@
+delete FROM FACILITY;
+delete FROM SERVICES;
