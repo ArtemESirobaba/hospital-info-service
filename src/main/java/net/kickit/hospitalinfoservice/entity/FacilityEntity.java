@@ -1,15 +1,13 @@
 package net.kickit.hospitalinfoservice.entity;
 
-import lombok.*;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 
 @Builder
-@ToString
-@Getter
-@Setter
-@AllArgsConstructor
+@Data
 @NoArgsConstructor
 @Entity
 @Table(name = "facility")
