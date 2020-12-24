@@ -4,12 +4,10 @@ package net.kickit.hospitalinfoservice.service;
 import com.fasterxml.jackson.core.json.JsonReadFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.json.JsonMapper;
-import net.kickit.hospitalinfoservice.configuration.TestConfiguration;
 import net.kickit.hospitalinfoservice.model.Facility;
 import net.kickit.hospitalinfoservice.service.impl.DataExtractorImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.springframework.context.annotation.Import;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.io.IOException;

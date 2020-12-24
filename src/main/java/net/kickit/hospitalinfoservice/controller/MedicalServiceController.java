@@ -2,7 +2,6 @@ package net.kickit.hospitalinfoservice.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ResponseHeader;
 import lombok.AllArgsConstructor;
 import net.kickit.hospitalinfoservice.dto.FacilityDto;
 import net.kickit.hospitalinfoservice.exception.InvalidInputException;
