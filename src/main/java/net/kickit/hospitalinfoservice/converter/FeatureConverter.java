@@ -3,7 +3,6 @@ package net.kickit.hospitalinfoservice.converter;
 import lombok.RequiredArgsConstructor;
 import ma.glasnost.orika.MapperFacade;
 import net.kickit.hospitalinfoservice.dto.FacilityDto;
-import net.kickit.hospitalinfoservice.dto.ServicesDto;
 import net.kickit.hospitalinfoservice.entity.FacilityEntity;
 import net.kickit.hospitalinfoservice.entity.ServicesEntity;
 import net.kickit.hospitalinfoservice.model.Facility;
