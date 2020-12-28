@@ -1,0 +1,14 @@
+version: '2.4'
+
+services:
+
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    command: -c 'shared_buffers=2048MB' -c 'max_connections=2000' -c 'temp_buffers=128MB' -c 'work_mem=64MB' -c 'maintenance_work_mem=128MB' -c 'max_stack_depth=7MB'
+    environment:
+      POSTGRES_DB: test_db
+      POSTGRESS_USER: postgres
+      POSTGRES_PASSWORD: postgres

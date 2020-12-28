@@ -1,0 +1,31 @@
+datasource:
+  username: postgres
+  password: postgres
+  database: test_db
+
+data-file:
+  path: input_data/test_task.txt
+
+spring:
+  liquibase:
+    contexts: test-project
+    change-log: classpath:db/db.changelog-master.xml
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/test_db
+    hikari:
+      username: postgres
+      password: postgres
+  jpa:
+    database: postgresql
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+      default_schema: {datasource.database}
+    properties:
+      hibernate:
+        default_schema: public
+        jdbc.lob.non_contextual_creation: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+      jdbc.lob.non_contextual_creation: true

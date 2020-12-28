@@ -26,8 +26,7 @@ public class DatasourceConfiguration {
         return new PostgreSQLContainer("postgres:11.1")
                 .withUsername(properties.getUsername())
                 .withPassword(properties.getPassword())
-                .withDatabaseName(properties.getDatabase())
-                .withInitScript("sql/embedded/init-script.sql");
+                .withDatabaseName(properties.getDatabase());
     }
 
     @Bean
